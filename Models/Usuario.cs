@@ -1,13 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace etec_delivery_back.Models
+namespace etec_delivery_backend.Models
 {
     public class Usuario
     {
         [Key]
         public int Id_Usuario { get; set; }
-
         [Required]
         public string Nome_Usuario { get; set; }
         [Required]
